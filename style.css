@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,96,121,1) 35%, rgba(0,212,255,1) 100%);
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 700px;
+  background-color: darkblue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 30px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.numbers {
+    font-size: 100px;
+}
